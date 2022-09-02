@@ -1,7 +1,7 @@
 import Worker from './bake.worker'
 import { ConfettiParticleFrame } from 'types'
 import { MAX_FRAMES } from '../consts'
-import { ConfettiParticle } from 'Scene/ConfettiParticle'
+import { ConfettiParticle } from '../Scene/ConfettiParticle'
 import { Vector3 } from 'three'
 
 function getRandomVector (): Vector3 {
