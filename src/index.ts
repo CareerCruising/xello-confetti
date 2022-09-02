@@ -39,4 +39,6 @@ export class XelloConfetti extends HTMLElement {
   }
 }
 
-customElements.define('xello-confetti', XelloConfetti)
+if (!customElements.get('xello-confetti')) {
+  customElements.define('xello-confetti', XelloConfetti)
+}
