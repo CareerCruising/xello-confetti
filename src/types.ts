@@ -1,5 +1,5 @@
 import { Mesh, Vector3, MeshBasicMaterialParameters, Color } from 'three'
-import { ConfettiParticle } from 'Scene/ConfettiParticle';
+import { ConfettiParticle } from './Scene/ConfettiParticle';
 
 export interface ConfettiParticleFrame {
   meshId: keyof ConfettiParticles;
